@@ -1,3 +1,5 @@
+# EJERCICIO 4
+
 import random
 
 def lista_aleatoria():
@@ -7,3 +9,20 @@ def lista_aleatoria():
         
 
 lista_aleatoria()
+
+# EJERCICIO 3
+
+frase = "El mejor regalo? El perdón..."
+list_frase = list(frase)
+
+list_frase = frase.split(" ")
+
+
+list_frase.pop(3)
+list_frase.pop(2)
+list_frase.pop(0)
+list_frase.insert(0,"el ")
+list_frase.insert(2," ")
+
+nueva_frase = ''.join(list_frase)
+print(nueva_frase)
