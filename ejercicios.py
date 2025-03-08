@@ -10,7 +10,7 @@ def lista_aleatoria():
 
 lista_aleatoria()
 
-# EJERCICIO 3
+# EJERCICIO 3.
 
 frase = "El mejor regalo? El perdón..."
 list_frase = list(frase)
